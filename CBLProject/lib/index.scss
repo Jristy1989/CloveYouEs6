@@ -1,0 +1,280 @@
+body,
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    background-color: #d8d8d8;
+    color: #000000;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.cui-text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn_block {
+    display: block;
+    width: 98%;
+}
+.whiteborderbox {
+    border: 2px solid #fff;
+    font-family: 'montserratbold', 'ars_maquette_probold';
+    font-size: 1.2em;
+    line-height: 1.0;
+    display: inline-block;
+    padding: .875rem 1rem .875rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    -moz-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+a:link {
+    text-decoration: none;
+    /* 指正常的未被访问过的链接*/
+}
+
+a:visited {
+    text-decoration: none;
+    /*指已经访问过的链接*/
+}
+
+a:hover {
+    text-decoration: none;
+    /*指鼠标在链接*/
+}
+
+a:active {
+    text-decoration: none;
+    /* 指正在点的链接*/
+}
+
+.left {
+    float: left;
+}
+
+button {
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+}
+
+.ellipsistext {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mb20 {
+    margin-bottom: 1.25rem;
+}
+
+
+/*swipe*/
+
+.carsousel {
+    height: 14.375rem;
+}
+
+.carsousel img {
+    width: 100%;
+}
+
+
+/* headeravator */
+
+.avatar_container {
+    padding: .75rem;
+    background-color: #fff;
+}
+
+.avatar_info {
+    display: inline-block;
+    width: 7.5rem;
+    height: 4.5rem;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    padding-top: .75rem;
+    padding-left: .5rem;
+}
+
+.distance {
+    text-align: right;
+    font-size: .725rem;
+}
+
+.text_container {
+    padding: .5rem .75rem;
+    background-color: #fff;
+    color: #f59c00;
+}
+
+.text_container span {
+    color: #000000;
+}
+
+.compass {
+    display: block;
+    float: right;
+    height: 3.5rem;
+    width: 3.5rem;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 4.35rem;
+    background-color: #ddd;
+    margin-right: .5rem;
+    margin: .5rem;
+}
+
+.compass span {
+    font-size: 1.625em;
+    color: #f59c00;
+}
+
+
+/* Centered Heading Overlaying a Horizontal Line with CSS */
+
+.introduction {
+    padding: .5rem .75rem;
+    background-color: #fff;
+}
+
+.totop>div {
+    height: 3.375rem;
+    width: 3.375rem;
+    text-align: center;
+    line-height: 3.975rem;
+    border-radius: 50%;
+    background-color: #f59c00;
+    z-index: 1;
+}
+
+.totop span {
+    font-size: 1.875rem;
+}
+
+
+/*color*/
+
+.btn_warning,
+.btn_yellow {
+    color: #fff;
+    border: 1px solid #f0ad4e;
+    background-color: #f0ad4e;
+}
+
+.btn_self {
+    color: #fff;
+    border: 1px solid #f59c00;
+    background-color: #f59c00;
+}
+
+.btn_yellow:active {
+    color: #fff;
+    background-color: #f59c00;
+}
